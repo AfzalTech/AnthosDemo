@@ -6,6 +6,6 @@ metadata:
   labels:
     app: postgres
 data:
-  POSTGRES_DB: postgresdb
+  POSTGRES_DB: nopdb
   POSTGRES_USER: admintest
   POSTGRES_PASSWORD: anthostest
