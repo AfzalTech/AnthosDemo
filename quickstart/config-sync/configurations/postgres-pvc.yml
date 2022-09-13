@@ -2,7 +2,6 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: postgres-pv-claim  # Sets name of PVC
-  namespace: testnop
   labels:
     app: postgres
 spec:
