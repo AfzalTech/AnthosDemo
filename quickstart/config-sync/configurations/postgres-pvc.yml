@@ -1,5 +1,5 @@
 kind: PersistentVolumeClaim
-apiVersion: aps
+apiVersion: v1
 metadata:
   name: postgres-pv-claim
   labels:
