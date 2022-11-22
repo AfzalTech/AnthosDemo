@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: azure-vote-front
-  namespace: helloafzal3
+  namespace: testapplication
 spec:
   replicas: 1
   selector:
