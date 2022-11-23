@@ -1,10 +1,9 @@
 kind: PersistentVolume
 apiVersion: v1
 metadata:
-  name: postgres-pv-volume
-  namespace: appdb
+  name: postgres-pv-volumeapp
 spec:
-  storageClassName: manual
+  storageClassName: manualapp
   capacity:
     storage: 1Gi
   accessModes:
